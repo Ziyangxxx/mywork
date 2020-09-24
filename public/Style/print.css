@@ -1,0 +1,26 @@
+#wrapper{
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+}
+  
+nav{
+  display: none;
+}
+
+nav a#menubutton{
+  display: none;
+  box-shadow: none;
+}
+
+div.section1 p{
+  color: #000;
+}
+
+div.section2{
+  box-shadow: none;
+}
+
+div.section3{
+  box-shadow: none;
+}

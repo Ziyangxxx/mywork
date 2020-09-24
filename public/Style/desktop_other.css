@@ -1,0 +1,221 @@
+/*This is css flowerbox
+   ___________________________
+  / \                         \  
+  \_|      CSS STYLESHEET     |  
+    |      WEB DEVELOPMENT    |  
+    |         CARLOS XU       |  
+    |  _______________________|_ 
+    \_/________________________/
+*/
+
+body{
+  font-family: Raleway, Sen, Arial, "Open Sans", sans-serif;
+  font-size: 16px;
+  background-color: #1f2426;
+  margin: 0;
+  line-height: 1.4em;
+}/* basic styling for body */
+
+#wrapper{
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #1f2426;
+}/* styling wrapper section */
+
+header div{
+  width: 960px;
+  max-width: 100%;
+  position: relative;
+  display: block;
+  height: 353px;
+  background-image: url(../images/intro/city.jpg);
+  background-size: auto;
+  background-position: center;
+}/* styling header box */
+
+#wrapper2{
+  position: relative;
+  top: -50px;
+}/* positioning nav box */
+
+nav{
+  display: block;
+  height: 48px;
+  width: 100%;
+  border: 0.5px solid rgba(60,0,255,0.6);
+  border-radius: 8px;
+  box-shadow: 0 0 13px rgba(60,0,255,1);
+}/* styling the box of nav */
+
+nav ul {
+  padding-left: 0px;
+  padding-top: 0;
+  margin: 0;
+  display: flex;
+}/* positioning the ul */
+
+nav ul li{
+  list-style-type: none;
+  display: block;
+  width: 100%;
+  height: 47px;
+  position: relative;
+  background-color: rgba(0,0,0,0.7);
+}/* styling the li */
+
+#nav1{
+  flex: 1;
+}
+#nav2{
+  flex: 1;
+}
+#nav3{
+  flex: 1;
+}
+#nav4{
+  flex: 1;
+}
+#nav5{
+  flex: 1;
+}
+
+#border1{
+  position: absolute;
+  top: 10px;
+  left: 19.9%;
+  width: 1px;
+  height: 30px;
+  border-right: 1px solid #5d48c8;
+  z-index: 20;
+}/* styling the li border1 */
+
+#border2{
+  position: absolute;
+  top: 10px;
+  left: 39.9%;
+  width: 1px;
+  height: 30px;
+  border-right: 1px solid #5d48c8;
+  z-index: 20;
+}/* styling the li border2 */
+
+#border3{
+  position: absolute;
+  top: 10px;
+  left: 59.9%;
+  width: 1px;
+  height: 30px;
+  border-right: 1px solid #5d48c8;
+  z-index: 20;
+}/* styling the li border3 */
+
+#border4{
+  position: absolute;
+  top: 10px;
+  left: 79.9%;
+  width: 1px;
+  height: 30px;
+  border-right: 1px solid #5d48c8;
+  z-index: 20;
+}/* styling the li border4 */
+
+nav ul li a{
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-family: Sen, serif;
+  font-size: 1.1em;
+  font-weight: 700;
+  box-sizing: border-box;
+  display: block;
+  padding: 13px 6px;
+  border-radius: 8px
+}/* more styling for content in a tag */
+
+/* styling the hover border effect  */
+nav ul li ::before{
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: -1px;
+  right: -1px;
+  top: -1px;
+  transform: scale(1,0);
+  transition: all 1s;
+  border-left: 2px solid #3c00ff;
+  border-right: 2px solid #3c00ff;
+  z-index: 99;
+}
+
+nav ul li ::after{
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: -1px;
+  right: -1px;
+  top: -1px;
+  transform: scale(0,1);
+  transition: all 1s;
+  border-top: 2px solid #3c00ff;
+  border-bottom: 2px solid #3c00ff;
+  z-index: 99;
+}
+
+nav ul li:hover ::before, nav ul li:hover ::after{
+  transform: scale(1);
+  transition: all 0.7s;
+  color: #ff0;
+}
+
+nav ul li a:hover{
+  color: #ff0;
+}/* styling the hover color */
+
+nav ul li a:focus{
+  color: #5d48c8;
+}/* styling for focus nav */
+
+
+div.section4{
+  background: url(../images/social%20media.jpg) center center no-repeat;
+  display: block;
+  position: relative;
+  width: 960px;
+  max-width: 100%;
+  height: 105px;
+}/* styling section4 box */
+
+/* styling social media logo */
+div a.email{
+  position: absolute;
+  max-width: 100%;
+  top: 48px;
+  left: 42%;
+}
+
+div a.ins{
+  position: absolute;
+  max-width: 100%;
+  top: 45px;
+  left: 49%;
+}
+
+div a.wechat{
+  position: absolute;
+  max-width: 100%;
+  top: 47px;
+  left: 55.5%;
+}
+
+footer{
+  height: 90px;
+  background-color: #312840;
+  color: #999;
+  padding: 1px 20px;
+}/* styling the footer box */
+
+footer p{
+  text-align: center;
+}/* styling the footer text */

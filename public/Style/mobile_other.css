@@ -1,0 +1,470 @@
+/*This is css flowerbox
+   ___________________________
+  / \                         \  
+  \_|      CSS STYLESHEET     |  
+    |      WEB DEVELOPMENT    |  
+    |         CARLOS XU       |  
+    |  _______________________|_ 
+    \_/________________________/
+*/
+body{
+  font-family: Raleway, Sen, Arial, "Open Sans", sans-serif;
+  font-size: 16px;
+  background-color: #1f2426;
+  margin: 0;
+  line-height: 1.4em;
+}/* basic styling for body */
+
+#wrapper{
+  position: relative;
+  width: 100%;
+  max-width: 768px;
+  margin: 0 auto;
+  background-color: #1f2426;
+}/* styling wrapper section */
+
+
+header div{
+  width: 768px;
+  max-width: 100%;
+  position: relative;
+  display: block;
+  height: 263px;
+  background-image: url(../images/intro/city_small.jpg);
+  background-size: auto;
+  background-position: center;
+}/* styling header box */
+
+div.section4{
+  background: url(../images/social%20media.jpg) center center no-repeat;
+  display: block;
+  position: relative;
+  width: 960px;
+  max-width: 100%;
+  height: 105px;
+}/* styling section4 box */
+
+/* styling social media logo */
+div a.email{
+  position: absolute;
+  max-width: 100%;
+  top: 45px;
+  left: 42%;
+}
+
+div a.ins{
+  position: absolute;
+  max-width: 100%;
+  top: 42px;
+  left: 49%;
+}
+
+div a.wechat{
+  position: absolute;
+  max-width: 100%;
+  top: 44px;
+  left: 55.5%;
+}
+
+footer{
+  height: 90px;
+  background-color: #312840;
+  color: #999;
+  padding: 1px 20px;
+}/* styling the footer box */
+
+footer p{
+  text-align: center;
+}/* styling footer box*/
+
+/* styling hamburger menu */
+nav a#menubutton{
+  display: block;
+  width: 46px;
+  height: 45px;
+  background-color: rgba(38,30,51,0.7);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  box-shadow: 0 0 9px rgba(144,63,255,1);
+}
+
+nav a span{
+  display: block;
+  height: 3px;
+  margin: 9px 8px 9px 8px;
+}
+
+nav a span#middle{
+  background-color: #e2d300;
+}
+
+nav a span#middle{
+  transition: all .1s ease-in-out;
+}
+
+
+nav:hover a span#middle{
+  transform: scale(0,1)
+}
+
+nav a div#topcube{
+  position: absolute;
+  top: 9px;
+  right: 35px;
+  display: block;
+  height: 3px;
+  width: 3px;
+  
+}
+
+nav a div span#topcube1{
+  background-color: #e2d300;
+  display: block;
+  width: 3px;
+  margin: 0;
+  position: absolute;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+nav:hover a div span#topcube1{
+  transform: translate(0,27px);
+  opacity: 0;
+}
+
+nav a div span#topcube2{
+  background-color: #e2d300;
+  display: block;
+  width: 3px;
+  margin: 0;
+  position: absolute;
+  left: 3px;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+nav:hover a div span#topcube2{
+  transform: translate(0,24px);
+}
+
+nav a div span#topcube3{
+  background-color: #e2d300;
+  display: block;
+  width: 3px;
+  margin: 0;
+  position: absolute;
+  left: 6px;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+nav:hover a div span#topcube3{
+  transform: translate(0,21px);
+}
+
+nav a div span#topcube4{
+  background-color: #e2d300;
+  display: block;
+  width: 3px;
+  margin: 0;
+  position: absolute;
+  left: 9px;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+nav:hover a div span#topcube4{
+  transform: translate(0,18px);
+}
+
+nav a div span#topcube5{
+  background-color: #e2d300;
+  display: block;
+  width: 3px;
+  margin: 0;
+  position: absolute;
+  left: 12px;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+nav:hover a div span#topcube5{
+  transform: translate(0,15px);
+}
+
+nav a div span#topcube6{
+  background-color: #e2d300;
+  display: block;
+  width: 3px;
+  margin: 0;
+  position: absolute;
+  left: 15px;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+nav:hover a div span#topcube6{
+  transform: translate(0,12px);
+}
+
+nav a div span#topcube7{
+  background-color: #e2d300;
+  display: block;
+  width: 3px;
+  margin: 0;
+  position: absolute;
+  left: 18px;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+nav:hover a div span#topcube7{
+  transform: translate(0,9px);
+}
+
+nav a div span#topcube8{
+  background-color: #e2d300;
+  display: block;
+  width: 3px;
+  margin: 0;
+  position: absolute;
+  left: 21px;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+nav:hover a div span#topcube8{
+  transform: translate(0,6px);
+}
+
+nav a div span#topcube9{
+  background-color: #e2d300;
+  display: block;
+  width: 3px;
+  margin: 0;
+  position: absolute;
+  left: 24px;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+nav:hover a div span#topcube9{
+  transform: translate(0,3px);
+}
+
+nav a div span#topcube10{
+  background-color: #e2d300;
+  display: block;
+  width: 3px;
+  margin: 0;
+  position: absolute;
+  left: 27px;
+  transition: all .1s ease-in-out;
+}
+
+nav a div#bottomcube{
+  position: absolute;
+  top: 33px;
+  right: 35px;
+  display: block;
+  height: 3px;
+  width: 3px;
+}
+
+nav a div span#bottomcube1{
+  display: block;
+  width: 3px;
+  margin: 0;
+  position: absolute;
+  background-color: #fff;
+  background-color: #e2d300;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+nav:hover a div span#bottomcube1{
+  transform: translate(0,-27px);
+  opacity: 0;
+}
+
+nav a div span#bottomcube2{
+  display: block;
+  width: 3px;
+  margin: 0;
+  position: absolute;
+  left: 3px;
+  background-color: #fff;
+  background-color: #e2d300;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+nav:hover a div span#bottomcube2{
+  transform: translate(0,-24px);
+}
+
+nav a div span#bottomcube3{
+  display: block;
+  width: 3px;
+  margin: 0;
+  position: absolute;
+  left: 6px;
+  background-color: #fff;
+  background-color: #e2d300;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+nav:hover a div span#bottomcube3{
+  transform: translate(0,-21px);
+}
+
+nav a div span#bottomcube4{
+  display: block;
+  width: 3px;
+  margin: 0;
+  position: absolute;
+  left: 9px;
+  background-color: #fff;
+  background-color: #e2d300;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+nav:hover a div span#bottomcube4{
+  transform: translate(0,-18px);
+}
+
+nav a div span#bottomcube5{
+  display: block;
+  width: 3px;
+  margin: 0;
+  position: absolute;
+  left: 12px;
+  background-color: #fff;
+  background-color: #e2d300;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+nav:hover a div span#bottomcube5{
+  transform: translate(0,-15px);
+}
+
+nav a div span#bottomcube6{
+  display: block;
+  width: 3px;
+  margin: 0;
+  position: absolute;
+  left: 15px;
+  background-color: #fff;
+  background-color: #e2d300;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+nav:hover a div span#bottomcube6{
+  transform: translate(0,-12px);
+}
+
+nav a div span#bottomcube7{
+  display: block;
+  width: 3px;
+  margin: 0;
+  position: absolute;
+  left: 18px;
+  background-color: #fff;
+  background-color: #e2d300;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+nav:hover a div span#bottomcube7{
+  transform: translate(0,-9px);
+}
+
+nav a div span#bottomcube8{
+  display: block;
+  width: 3px;
+  margin: 0;
+  position: absolute;
+  left: 21px;
+  background-color: #fff;
+  background-color: #e2d300;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+nav:hover a div span#bottomcube8{
+  transform: translate(0,-6px);
+}
+
+nav a div span#bottomcube9{
+  display: block;
+  width: 3px;
+  margin: 0;
+  position: absolute;
+  left: 24px;
+  background-color: #fff;
+  background-color: #e2d300;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+nav:hover a div span#bottomcube9{
+  transform: translate(0,-3px);
+}
+
+nav a div span#bottomcube10{
+  display: block;
+  width: 3px;
+  margin: 0;
+  position: absolute;
+  left: 27px;
+  background-color: #fff;
+  background-color: #e2d300;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* styling nav menu */
+nav ul{
+  background-color: rgba(119,52,210,0.7);
+  width: 150px;
+  font-family: Sen, sans-serif;
+  position: absolute;
+  top: 10px;
+  right: 52px;
+  margin: 0;
+  padding: 3px;
+  visibility: hidden;
+  opacity: 0;
+  transform-origin: top right;
+  transform: scale(0,0);
+  transition: all .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}/* styling ul box */
+
+nav:hover ul{
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1,1);
+}/* hover effect for nav menu */
+
+nav ul li{
+  list-style-type: none;
+  background-color: #1f2426;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 7px;
+  display: block;
+  transition: all .4s 
+}/* styling li box */
+
+nav ul li :hover{
+  color: #fff;
+}/* styling the hover color */
+
+nav ul li#nav1,
+nav ul li#nav2,
+nav ul li#nav3,
+nav ul li#nav4{
+  margin-bottom: 3px;
+}/* fixing margin for li */
+
+nav ul li a{
+  text-decoration: none;
+  display: block;
+  color: #e2d300;
+}/*　styling text for a link　*/
+
+
+
+
+
+
+
+
+
+
