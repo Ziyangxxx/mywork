@@ -20,7 +20,7 @@
  * @file contact.php
  * @author Carlos Xu <asdiop963@hotmail.com>
  * @updated_at 2020-08-20
- * 
+ * 12
  */
 require __DIR__ . '/../config.php';
 
